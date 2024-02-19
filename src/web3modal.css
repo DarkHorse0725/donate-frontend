@@ -1,0 +1,72 @@
+.web3modal-modal-lightbox {
+  /* background: rgba(14, 33, 48, 0.8) !important; */
+}
+.web3modal-modal-card {
+  background-color: rgb(224, 204, 152) !important;
+  border-radius: 8px !important;
+  display: unset !important;
+}
+.web3modal-modal-title {
+  padding: 40px 0px 10px 0px;
+  margin: 0 55px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.web3modal-modal-title > div:nth-child(1) {
+  color: black;
+  font-weight: bold;
+}
+.web3modal-modal-title > div:nth-child(2) {
+  color: black;
+  cursor: pointer;
+}
+.web3modal-modal-field {
+  display: flex !important;
+  padding: 30px 55px 60px 55px;
+}
+
+.web3modal-provider-wrapper {
+  border: none !important;
+}
+.web3modal-provider-container {
+  background: transparent !important;
+}
+.web3modal-provider-container:hover {
+  background: rgba(0, 0, 0, 0.14) !important;
+}
+.web3modal-provider-name {
+  color: black !important;
+  margin-top: 25px !important;
+  font-size: 24px !important;
+}
+.web3modal-provider-description {
+  display: none !important;
+}
+.web3modal-provider-icon {
+  width: 80px !important;
+  height: 80px !important;
+}
+@media screen and (max-width: 600px) {
+  .web3modal-modal-field {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .web3modal-modal-title {
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  .web3modal-provider-container {
+    padding: 20px 0 !important;
+  }
+  .web3modal-provider-icon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .web3modal-provider-name {
+    color: black !important;
+    margin-top: 16px !important;
+    font-size: 18px !important;
+  }
+}

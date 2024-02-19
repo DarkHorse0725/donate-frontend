@@ -1,0 +1,185 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #18243b;
+}
+
+html,
+body,
+#root {
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+  min-height: 100vh;
+  /* line-height: 140%; */
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  z-index: 1;
+  background-size: cover;
+  font-family: "Satoshi";
+  transition: all ease 0.33ms;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 0 !important;
+}
+
+.ohm-pairs {
+  display: flex;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}
+
+a:hover svg {
+  color: inherit;
+}
+
+.MuiLink-root.active {
+  color: #ffe300 !important;
+  text-decoration: underline;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.ReactModal__Content {
+  border: none !important;
+  background: rgba(41, 41, 41, 0.8) !important;
+}
+
+.ReactModalPortal {
+  position: relative;
+  z-index: 10;
+}
+
+.MuiSkeleton-root {
+  background-color: rgba(150, 150, 150, 0.3) !important;
+}
+
+.highcharts-label > text {
+  fill: #1fc7d4 !important;
+}
+
+#WEB3_CONNECT_MODAL_ID {
+  position: relative;
+  z-index: 100000;
+}
+
+.MuiDialog-container > div {
+  background-color: transparent !important;
+  max-width: unset;
+  margin: 0px !important;
+}
+.MuiDialog-paper {
+}
+
+.react-multi-carousel-item {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.MuiSlider-rail {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+.MuiSlider-thumb {
+  background-color: #43bad1 !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+@media screen and (max-width: 450px) {
+  .MuiSlider-thumb {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+
+.MuiSlider-track {
+  background-color: #43bad1 !important;
+}
+.MuiSvgIcon-root {
+  font-size: 32px !important;
+}
+.MuiCheckbox-root {
+  color: #f50057 !important;
+}
+
+.font-title {
+  font-size: 40px;
+  line-height: 130%;
+}
+.font-md {
+  font-size: 20px;
+  line-height: 130%;
+}
+.font-lg {
+  font-size: 24px;
+  line-height: 130%;
+}
+.font-sm {
+  font-size: 12px;
+  line-height: 130%;
+}
+.tokenomics-font-lg {
+  font-size: 30px;
+  line-height: 130%;
+}
+@media screen and (max-width: 700px) {
+  .font-title {
+    font-size: 31px;
+  }
+  .font-md {
+    font-size: 16px;
+  }
+  .font-lg {
+    font-size: 18px;
+  }
+  .font-sm {
+    font-size: 12px;
+  }
+  .tokenomics-font-lg {
+    font-size: 24px;
+  }
+}
